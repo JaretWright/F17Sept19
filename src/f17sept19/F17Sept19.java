@@ -27,17 +27,17 @@ public class F17Sept19 {
         
         System.out.printf("Glad to meet you %s%n", myName);
         
-        int yearsExperience;
+        int yearsExperience;  //define an int called yearsExperience
         
         //Prompt the user with the question "How many years experience programming do you have?"
+        System.out.print("How many years experience programming do you have?");
         
-        //Use the Scanner object called keyboard method nextInt() to update the variable 
+        //Use the Scanner object called keyboard with the method nextInt() to update the variable 
         //yearsExperience
+        yearsExperience = keyboard.nextInt();
         
         //Display the years of experience to the screen
-        
-        
-        
+        System.out.printf("Cool - you have %d years experience.%n", yearsExperience);
     }
     
 }
