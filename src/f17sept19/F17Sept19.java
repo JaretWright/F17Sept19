@@ -26,6 +26,18 @@ public class F17Sept19 {
         myName = keyboard.nextLine();
         
         System.out.printf("Glad to meet you %s%n", myName);
+        
+        int yearsExperience;
+        
+        //Prompt the user with the question "How many years experience programming do you have?"
+        
+        //Use the Scanner object called keyboard method nextInt() to update the variable 
+        //yearsExperience
+        
+        //Display the years of experience to the screen
+        
+        
+        
     }
     
 }
