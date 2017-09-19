@@ -38,6 +38,8 @@ public class F17Sept19 {
         
         //Display the years of experience to the screen
         System.out.printf("Cool - you have %d years experience.%n", yearsExperience);
+        
+        System.out.print("Cool - you have " + yearsExperience + " years experience");
     }
     
 }
